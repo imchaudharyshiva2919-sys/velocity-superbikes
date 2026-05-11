@@ -509,7 +509,9 @@ body{
 
     max-width: 260px;
 
-    aspect-ratio: 16/11;
+    /* aspect-ratio: 16/11; */
+
+    aspect-ratio: 1/1;
 
     border-radius: 20px;
 
@@ -531,6 +533,8 @@ body{
 
 .overlay{
     position: absolute;
+
+    padding: 10px;
 
     inset: 0;
 
@@ -556,13 +560,21 @@ body{
 .overlay h2{
     font-family: "Bebas Neue", sans-serif;
 
-    font-size: 40px;
+    font-size: clamp(10px, 2vw, 40px);
+
+    line-height: 1;
 
     margin-bottom: 10px;
 }
 
 .overlay p{
-    font-size: 18px;
+
+    font-size: clamp(6px, 1vw, 18px);
+
+    padding: 0 12px;
+
+    line-height: 1.4;
+
 }
 
 .card:hover{
