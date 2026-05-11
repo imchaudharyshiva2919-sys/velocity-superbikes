@@ -493,7 +493,13 @@ body{
 
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+
+    flex-wrap: wrap;
+
+    /* grid-template-columns: repeat(4, 1fr); */
+
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 
     gap: 25px;
 
@@ -513,7 +519,7 @@ body{
 
     aspect-ratio: 1/1;
 
-    border-radius: 20px;
+    border-radius: 10%;
 
     overflow: hidden;
 
