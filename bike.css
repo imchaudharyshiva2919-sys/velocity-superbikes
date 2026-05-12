@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .aclonica-regular {
   font-family: "Aclonica", sans-serif;
   font-weight: 400;
@@ -88,6 +92,14 @@ body{
     gap: 50px;
 
     justify-content: space-between;
+
+}
+
+.navbar a{
+
+    text-decoration: none;
+
+    color: white;
 
 }
 
@@ -252,6 +264,10 @@ body{
     border-radius: 15px;
 }
 
+.front-text a{
+    text-decoration: none;
+}
+
 .bike-img,
 .front-text{
     flex: 1 1 400px;
@@ -408,6 +424,10 @@ body{
     border-radius: 15px;
 }
 
+.front-btext a{
+    text-decoration: none;
+}
+
 /*  Yamha   */
 
 .yamha-bike{
@@ -559,6 +579,10 @@ body{
     cursor: pointer;
 
     border-radius: 15px;
+}
+
+.front-ytext a{
+    text-decoration: none;
 }
 
 .yamha,
@@ -769,6 +793,10 @@ body{
     cursor: pointer;
 
     border-radius: 15px;
+}
+
+.front-ntext a{
+    text-decoration: none;
 }
 
 .ninja,
