@@ -1051,9 +1051,12 @@ body{
 }
 
 .contact a{
+
     text-decoration: none;
+
     color: white;
 }
+
 .contact::before{
 
     content: "";
