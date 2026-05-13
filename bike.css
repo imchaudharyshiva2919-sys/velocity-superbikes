@@ -283,6 +283,12 @@ body{
         height: auto;
 
         padding: 80px 8%;
+
+        background: linear-gradient(
+
+        black 20%,
+        #3c0016 80%
+    );
     }
 
     .bike-img h2{
@@ -295,7 +301,7 @@ body{
 
         transform: translateX(-50%);
 
-        opacity: 0.45;
+        opacity: 1;
     }
 
 
@@ -306,7 +312,7 @@ body{
         text-align: center;
     }
 
-    .front-ttext h3{
+    .front-text h3{
 
         margin-top: 20px;
     }
@@ -328,7 +334,7 @@ body{
         black 80%
         
     );
-    /* flex-wrap: wrap; */
+   
     margin: 10px 0px 0px 0px ;
     display: flex;
     align-items: center;
@@ -345,19 +351,30 @@ body{
 
 .bmw img{
     position: relative;
+
     z-index: 2;
+
     width: 100%;
+
     max-width: 700px;
+
     min-width: 30%;
+
     filter: drop-shadow(0 0 25px #067cea);
 }
 .bmw h2{
     font-family: "Bebas Neue", sans-serif;
+
     position: absolute;
+
     font-size: clamp(80px, 14vw, 220px);
+
     z-index: 1;
+
     top: 0%;
-    right: 3%;
+
+    right: 0%;
+
     font-weight: bold;
 
     background: linear-gradient(
@@ -374,12 +391,19 @@ body{
 
 .bmw h3{
     position: absolute;
+
     font-size: clamp(10px, 5vw, 20px);
+
     z-index: 3;
+
     top: 100%;
+
     left:25%;
+
     color:#e9e5dc;
+
     font-weight: lighter;
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -395,6 +419,8 @@ body{
 
     z-index: 3;
 }
+
+
 
 .front-btext h3{
     color: #e9e5dc;
@@ -418,7 +444,7 @@ body{
 
     border: none;
 
-    background: #000f22;
+    background: black;
     color: #e9e5dc;
 
     cursor: pointer;
@@ -429,6 +455,89 @@ body{
 .front-btext a{
     text-decoration: none;
 }
+ 
+@media(max-width: 900px){
+
+.bmw-bike{
+
+        height: auto;
+
+        padding: 80px 8%;
+
+        display: flex;
+
+        flex-direction : column;
+
+        flex-wrap: wrap;
+
+        background: linear-gradient(
+    
+        black 20%,
+        #2d82b5 80%
+    );
+    }
+
+.bmw{
+
+        margin-top: 60px;
+    }
+
+.bmw h3{
+
+    position: absolute;
+
+    left: 50%;
+
+    top: 85%;
+
+    transform: translateX(-50%);
+}
+
+    .bmw h2{
+
+        font-size: clamp(90px, 22vw, 160px);
+
+        top: 0%;
+
+        left: 50%;
+
+        padding-left: 10%;
+
+        transform: translateX(-50%);
+
+        opacity: 1;
+
+        width: 100%;
+    }
+
+    .front-btext{
+
+    width: 100%;
+
+    margin-left: 0;
+
+    padding: 0 8%;
+
+    text-align: center;
+    
+}
+
+.front-btext button{
+
+    display: block;
+
+    margin: 25px auto 0;
+
+    background: #2d82b5;
+}
+
+    .front-btext h3{
+
+        margin-top: 20px;
+
+    }
+}
+
 
 /*  Yamha   */
 
@@ -599,6 +708,12 @@ body{
         height: auto;
 
         padding: 80px 8%;
+
+        background: linear-gradient(
+    
+        black 20%,
+        #011064 80%
+    );
     }
 
     .yamha{
@@ -616,7 +731,7 @@ body{
 
         transform: translateX(-50%);
 
-        opacity: 0.45;
+        opacity: 1;
     }
 
     .front-ytext{
