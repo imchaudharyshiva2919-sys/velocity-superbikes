@@ -104,7 +104,7 @@ body{
 
     justify-content: space-evenly;
 
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .navbar a{
@@ -116,7 +116,24 @@ body{
     white-space: nowrap;
 }
 
+.search_box{
+    margin-right: 20px;
+}
+
+.search_box input{
+    padding: 10px ;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+    width: 30vw;
+    color: black;
+    font-weight: bolder;
+}
+
 @media(max-width: 768px){
+
+    .hero{
+    gap: 2vw;
+    }
 
     .navbar{
 
@@ -130,6 +147,10 @@ body{
     .navbar a{
 
         font-size: 14px;
+    }
+
+    .search_box input{
+        width: 10vw;
     }
 }
 
@@ -1272,6 +1293,5 @@ body{
     rgba(255,255,255,0)
 
     );
-
 }
 
