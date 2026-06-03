@@ -132,16 +132,15 @@ body{
 @media(max-width: 768px){
 
     .hero{
-    gap: 2vw;
+    gap: 3vw;
     }
 
     .navbar{
 
-        margin-left: 20px;
+        margin-left: 10px;
 
-        justify-content: space-between;
-
-        gap: 10px;
+        justify-content: space-evenly;
+        
     }
 
     .navbar a{
