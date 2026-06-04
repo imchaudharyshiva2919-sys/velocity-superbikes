@@ -117,16 +117,44 @@ body{
 }
 
 .search_box{
-    margin-right: 20px;
+    margin-right: 0px;
+
+    gap: 0px;
+
 }
 
 .search_box input{
-    padding: 10px ;
-    border-radius: 10px 10px 10px 10px;
+
+    position: relative;
+
+    padding: 10px 0px 10px 30px ;
+
+    border-radius: 20px 0px 0px 20px;
+    
     border: 2px solid black;
+
     width: 30vw;
+
     color: black;
+    
     font-weight: bolder;
+}
+
+
+.search_box button{
+
+    margin-left : 0px;
+
+    border: 2px solid black;
+
+    padding: 10px;
+
+    color: white;
+
+    font-weight :bolder;
+
+    background-color :blue;
+
 }
 
 @media(max-width: 768px){
@@ -150,6 +178,7 @@ body{
 
     .search_box input{
         width: 10vw;
+        padding-left: 10px;
     }
 }
 
